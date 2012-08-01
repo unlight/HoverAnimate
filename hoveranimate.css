@@ -1,0 +1,23 @@
+div.Animate {
+	font-size: 18px;
+	font-family: Tahoma;
+	font-weight: bold;
+	position: absolute;
+	z-index: 10000;
+}
+
+div.Animate span.Minus, div.Animate span.Plus {
+	margin: 0 !important;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	cursor: pointer;
+}
+
+div.Animate span.Minus {
+	color: red;
+}
+
+div.Animate span.Plus {
+	color: green;
+}
